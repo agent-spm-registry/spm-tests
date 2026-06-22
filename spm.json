@@ -1,12 +1,14 @@
 {
   "name": "spm-tests",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "A new SPM skill package",
   "main": "index.js",
+  "type": "module",
   "author": "lakshitsoni",
   "license": "MIT",
-  "template": "starter",
-  "skills": {},
+  "skills": {
+    "test-push": "1.0.0"
+  },
   "keywords": [],
-  "type": "module"
+  "template": "starter"
 }
